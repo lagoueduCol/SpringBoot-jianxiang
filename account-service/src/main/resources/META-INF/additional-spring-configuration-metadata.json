@@ -1,0 +1,6 @@
+{"properties": [{
+  "name": "springcss.order.point",
+  "type": "java.lang.String",
+  "description": "'springcss.order.point' is userd for setting the point when dealing with an order.",
+  "defaultValue": 10
+}]}

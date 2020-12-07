@@ -1,0 +1,12 @@
+spring:      
+  kafka:
+    bootstrap-servers:
+    - localhost:9092
+    template:
+      default-topic: springcss.account.topic
+    consumer:
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      group-id: springcss_customer
+      properties:
+        spring.json.trusted.packages: com.springcss.message
+      

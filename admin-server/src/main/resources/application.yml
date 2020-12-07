@@ -1,0 +1,26 @@
+server:
+  port: 9000
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
+
+logging:
+    level:
+      com.netflix: WARN
+      org.springframework.web: WARN
+      com.tianyalan: INFO
+
+      
+eureka:
+  client:
+    register-with-eureka: false
+    
+spring:
+  security:
+    user:
+      name: "springcss_admin"
+      password: "springcss_password"
+    

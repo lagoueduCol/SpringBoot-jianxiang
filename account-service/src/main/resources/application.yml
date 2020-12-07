@@ -1,0 +1,28 @@
+server:
+  port: 8082
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+    level:
+      com.netflix: WARN
+      org.springframework.web: WARN
+      com.tianyalan: INFO
+
+
+spring:
+  profiles:
+    active: activemq
+#  security:
+#    user:
+#      name: springcss
+#      password: springcss_password
+        
+     

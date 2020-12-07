@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: customerservice
+  profiles:
+    active:
+      default

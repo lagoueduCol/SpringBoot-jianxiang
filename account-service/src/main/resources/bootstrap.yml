@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: accountservice
+  profiles:
+    active:
+      default 
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000 
+        
+        
+springcss:
+  order:
+    point: 10
+ 
+   
